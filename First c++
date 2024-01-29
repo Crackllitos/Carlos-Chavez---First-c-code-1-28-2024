@@ -1,0 +1,17 @@
+include <iostream>
+int main() {
+  //Variables 
+  //Assign double item with a value of 143
+  int x = 80;
+  int item = 160;
+  double mars;
+  bool myboolean = true;
+
+  //Assign mars to 143 + 0 / by 2.68
+  mars = (item + 0) / 2;
+  //Input a string statment in the black terminal to the right
+  std::cout <<"There is a item on Mars. It weighs:\n";
+  //Output a user input or in other words have the user type in the terminal the value of the "mars" variable
+  std::cin >> mars;
+  std::cout <<(mars == x); // returns 1 (true)
+}
