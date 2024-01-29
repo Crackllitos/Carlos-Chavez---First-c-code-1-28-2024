@@ -1,0 +1,31 @@
+#include <iostream>
+
+int main() {
+
+  int mercury = 1;
+  int answer = 1;
+  int earthWeight = 150;
+
+  std::cout <<"What is your weight on earth Little Mac?\n";
+  std::cin >>earthWeight;
+  if (150 == earthWeight) {
+    std::cout <<"Nice! What planet would you like to enter?\n";
+    std::cout <<"Mercury: Relative Gravity = 0.38\n";
+    std::cout <<"Venus: Relative Gravity = 0.91\n";
+    std::cout <<"Mars: Relative Gravity = 0.38\n";
+    std::cout <<"Jupiter: Relative Gravity = 2.35\n";
+    std::cout <<"Saturn: Relative Gravity = 1.06\n";
+    std::cout <<"Uranus: Relative Gravity = 0.92\n";
+    std::cout <<"Neptune: Relative Gravity = 1.19\n";
+  } 
+switch(mercury) {
+    case 1 :
+      std::cin >> answer;
+      std::cout <<"Great you chose Mercury. Your Weight:\n";
+      std::cout <<"0.38\n";
+    break;
+    default: 
+      std::cout <<"N/A\n";
+    break;
+  }
+}
