@@ -1,0 +1,17 @@
+#include <iostream>
+
+int main() {
+  
+ int i = 0; 
+ int numbers = 0;
+
+// Easy While Loop example:
+  //while ( i < 6 ) {
+    //std::cout << i << numbers <<"Wrong\n";
+   // i++;
+ // }
+  
+  // Easy For Loop example:
+  for (int x = 0; x < 10; x++) {
+    std::cout <<"7/27/2006\n";
+  }
